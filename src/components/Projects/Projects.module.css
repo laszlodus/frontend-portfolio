@@ -1,0 +1,22 @@
+.projects {
+  padding: 2rem;
+}
+
+.content {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+  gap: 2rem;
+}
+
+.content h2 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  color: var(--color-text-primary);
+  margin-bottom: 1rem;
+  text-align: center;
+}

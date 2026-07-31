@@ -1,0 +1,119 @@
+.hero {
+  min-height: 80vh;
+  padding: 5rem 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.content {
+  max-width: 40rem;
+}
+
+.kicker {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #4b5563;
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  line-height: 1.1;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #374151;
+  max-width: 36rem;
+  margin-bottom: 2rem;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.primaryButton,
+.secondaryButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 1.4rem;
+  border-radius: 0.75rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.primaryButton {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  border: 1px solid var(--color-primary);
+}
+
+.secondaryButton {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  border: 1px solid var(--color-border);
+}
+
+.primaryButton:hover,
+.secondaryButton:hover {
+  transform: translateY(-0.125rem);
+  box-shadow: 0 8px 16px var(--color-shadow);
+}
+
+.avatarWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #111827;
+  background: radial-gradient(
+    circle at 30% 30%,
+    var(--color-background) 0%,
+    #dbeafe 55%,
+    #bfdbfe 100%
+  );
+  border: 2px solid #93c5fd;
+  box-shadow: 0 14px 34px rgba(37, 99, 235, 0.2);
+}
+
+@media (min-width: 56rem) {
+  .hero {
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 3rem;
+    padding: 6rem 2rem;
+  }
+
+  .avatarWrap {
+    justify-content: flex-end;
+  }
+
+  .avatar {
+    width: 16rem;
+    height: 16rem;
+    font-size: 3rem;
+  }
+}

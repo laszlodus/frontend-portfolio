@@ -1,0 +1,39 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+}
+
+.content {
+  display: flex;
+  max-width: 75rem;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.content a {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  background-color: var(--color-primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
+
+.content h2 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  color: var(--color-text-primary);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.content p {
+  max-width: 40rem;
+  line-height: 1.6;
+}

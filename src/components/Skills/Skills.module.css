@@ -1,0 +1,57 @@
+.skills {
+  padding: 2rem;
+}
+
+.content {
+  max-width: 75rem;
+  width: 100%;
+  padding: 1rem 2rem;
+  margin: auto;
+}
+
+.content h2 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  color: var(--color-text-primary);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background-color: var(--color-background-alt);
+  color: var(--color-text-primary);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px var(--color-shadow);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.skillsList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 0;
+}
+
+.skillsList li {
+  color: var(--color-text-primary);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.content h2 {
+  margin-bottom: 2rem;
+}
+
+.card h3 {
+  margin-bottom: 1rem;
+}

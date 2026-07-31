@@ -1,0 +1,39 @@
+.header {
+  color: var(--color-text-primary);
+}
+
+.content {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a {
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  text-decoration: none;
+  color: var(--color-text-primary);
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.navList li a {
+  text-decoration: none;
+  color: var(--color-text-primary);
+  transition: color 0.2s ease;
+}
+.navList li a:hover {
+  color: var(--color-primary);
+}
