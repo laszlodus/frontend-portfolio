@@ -4,7 +4,7 @@ A modern personal portfolio built with **React**, **TypeScript**, and **Vite** t
 
 ## 🚀 Live Demo
 
-https://frontend-portfolio-ld.netlify.app
+https://frontend-portfolio-ld.netlify.app/
 
 ## ✨ Features
 
