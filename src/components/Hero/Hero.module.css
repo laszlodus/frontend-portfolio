@@ -85,19 +85,10 @@
   width: 13rem;
   height: 13rem;
   border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font-size: 2.5rem;
-  font-weight: 800;
-  color: #111827;
-  background: radial-gradient(
-    circle at 30% 30%,
-    var(--color-background) 0%,
-    #dbeafe 55%,
-    #bfdbfe 100%
-  );
-  border: 2px solid #93c5fd;
-  box-shadow: 0 14px 34px rgba(37, 99, 235, 0.2);
+  object-fit: cover;
+  object-position: center;
+  border: 3px solid var(--color-primary);
+  box-shadow: 0 14px 34px var(--color-shadow);
 }
 
 @media (min-width: 56rem) {
@@ -114,6 +105,5 @@
   .avatar {
     width: 16rem;
     height: 16rem;
-    font-size: 3rem;
   }
 }

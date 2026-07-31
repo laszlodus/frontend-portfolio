@@ -1,8 +1,14 @@
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--color-background);
   color: var(--color-text-primary);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .content {
+  position: relative;
   max-width: 75rem;
   margin: 0 auto;
   padding: 1rem 2rem;
@@ -36,4 +42,44 @@
 }
 .navList li a:hover {
   color: var(--color-primary);
+}
+
+.menuButton {
+  display: none;
+  border: none;
+  background: transparent;
+  color: var(--color-text-primary);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 48rem) {
+  .menuButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 2rem;
+    min-width: 12rem;
+    padding: 1rem;
+    background-color: var(--color-background-alt);
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px var(--color-shadow);
+    z-index: 10;
+  }
+
+  .menuOpen {
+    display: block;
+  }
+
+  .navList {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }

@@ -28,7 +28,7 @@
 .featured {
   position: absolute;
   top: 1.5rem;
-  right: 2.5rem;
+  right: 1.5rem;
   padding: 0.3rem 0.6rem;
   background-color: var(--color-primary);
   color: white;
@@ -48,7 +48,7 @@
 .links {
   display: flex;
   gap: 1rem;
-  margin-top: auto;
+  margin-top: 1rem;
   padding-top: 1rem;
 }
 

@@ -21,8 +21,12 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className={styles.avatarWrap} aria-hidden="true">
-        <div className={styles.avatar}>LD</div>
+      <div className={styles.avatarWrap}>
+        <img
+          className={styles.avatar}
+          src="/Images/laszlo_dus.webp"
+          alt="Laszlo Dus"
+        />
       </div>
     </section>
   );

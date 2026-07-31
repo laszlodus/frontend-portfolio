@@ -5,7 +5,6 @@
 .content {
   max-width: 75rem;
   width: 100%;
-  padding: 1rem 2rem;
   margin: auto;
 }
 
@@ -46,6 +45,9 @@
   color: var(--color-text-primary);
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
 }
 
 .content h2 {

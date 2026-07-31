@@ -1,10 +1,10 @@
 # Frontend Portfolio
 
-A modern personal portfolio built with **React**, **TypeScript**, and **Vite** to showcase my frontend development projects, technical skills, and experience.
+A modern personal portfolio built with **React**, **TypeScript**, and **Vite** to showcase my frontend projects, technical skills, and learning journey.
 
 ## 🚀 Live Demo
 
-Coming soon...
+https://frontend-portfolio-ld.netlify.app
 
 ## ✨ Features
 
@@ -25,9 +25,20 @@ Coming soon...
 
 ## 📂 Featured Projects
 
-- Rick and Morty Character Explorer
-- Book Finder
-- To The Point Tattoos
+### Rick and Morty Character Explorer ⭐ Featured
+
+- 🌐 Live Demo: https://rick-and-morty-character-explorer-ld.netlify.app
+- 💻 GitHub: https://github.com/laszlodus/rick-and-morty-character-explorer
+
+### Book Finder App
+
+- 🌐 Live Demo: https://book-finder-ld.netlify.app
+- 💻 GitHub: https://github.com/laszlodus/book-finder-react
+
+### To The Point Tattoos
+
+- 🌐 Live Demo: https://tothepointtattoos.com
+- 💻 GitHub: https://github.com/laszlodus/tothepointtattoos
 
 ## 📦 Installation
 
@@ -41,6 +52,8 @@ npm run dev
 ## 👨‍💻 Author
 
 **Laszlo Dus**
+
+Frontend Developer
 
 - GitHub: https://github.com/laszlodus
 - LinkedIn: https://www.linkedin.com/in/laszlo-dus-6b625035b
