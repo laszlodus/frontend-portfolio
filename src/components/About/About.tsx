@@ -8,12 +8,14 @@ export default function About() {
       <div className={styles.content}>
         <h2>About Me</h2>
         <p>
-          I am a junior frontend developer who enjoys building responsive web
-          applications with React and TypeScript.
+          I am a junior frontend developer who moved into tech after nearly 15
+          years in a different industry. I build responsive web applications
+          with React and TypeScript.
         </p>
         <p>
-          I improve my skills through personal projects, and I like writing
-          clean and easy-to-understand code.
+          I have contributed merged pull requests to open source projects, and I
+          enjoy improving my skills through personal projects, writing clean,
+          easy-to-understand code.
         </p>
         <ul className={styles.skills}>
           <li>
