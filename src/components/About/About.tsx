@@ -8,9 +8,9 @@ export default function About() {
       <div className={styles.content}>
         <h2>About Me</h2>
         <p>
-          I am a junior frontend developer who moved into tech after nearly 15
-          years in a different industry. I build responsive web applications
-          with React and TypeScript.
+          I am a junior frontend developer who moved into tech after 14 years
+          working at ASDA. I build responsive web applications with React and
+          TypeScript.
         </p>
         <p>
           I have contributed merged pull requests to open source projects, and I
